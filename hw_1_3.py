@@ -1,0 +1,37 @@
+print('Enter integer number a:')
+a = int(input('input correct number >>>'))
+if type(a) != int:
+    a = int(input('input correct number >>>'))
+else:
+    print('a as integer : ', a)
+    a = float(a)
+    print('a as float :', a)
+    print('a as float to string  : ', a)
+    a = int(a)
+    a = str(a)
+    print('a as integer to string  : ', a)
+    a = int(a)
+    print('a as  string to integer : ', a)
+    a = bool(a)
+    print('a as boolian : ', a)
+    a = str(a)
+    print('a as boolian to string  : ', a)
+print('Enter integer number b:')
+b = int(input('input correct number >>>'))
+if type(b) != int:
+    b = int(input('input correct number >>>'))
+b = bool(b)
+#a = int(a)
+#print('ineger + boolian : ', (a+b)) // not vallid operation
+a =bool(a)
+print('bool + bool', (a+b))
+b = int(b)
+a = float(a)
+print(type(a),type(b))
+print('integer + float :', (b+a))
+
+a = str(a)
+#print('string + integer: ', (a+b)) // not vallid
+a = bool(a)
+print('boolian + string : ',(a+b))
+print((2<=2))
